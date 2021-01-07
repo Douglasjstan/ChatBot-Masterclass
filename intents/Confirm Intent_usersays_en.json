@@ -1,0 +1,58 @@
+[
+  {
+    "id": "8a8ab37a-7c20-441f-8bae-395b91e5e32c",
+    "data": [
+      {
+        "text": "Yes",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9e3d6b2c-fb22-4357-b790-7ff4f10dc540",
+    "data": [
+      {
+        "text": "Okay",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e3b6ab54-c4ac-4824-9c15-4342f3db8e4c",
+    "data": [
+      {
+        "text": "OK",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cb425b6d-690f-4e64-8af1-4f621f653ef1",
+    "data": [
+      {
+        "text": "Confirm",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "value": "Self-collect",
+    "synonyms": [
+      "Self Collect",
+      "Collect myself",
+      "Go to stall",
+      "Self-collect"
+    ]
+  },
+  {
+    "value": "Home Delivery",
+    "synonyms": [
+      "Home Delivery",
+      "Deliver to my home",
+      "Delivery to my house"
+    ]
+  }
+]

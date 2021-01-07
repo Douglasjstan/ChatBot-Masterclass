@@ -1,0 +1,69 @@
+{
+  "id": "be4ef45c-3a0f-4a48-93fb-893cb544acac",
+  "name": "Self-collect Intent",
+  "auto": true,
+  "contexts": [
+    "awaiting_method"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "self-collect",
+      "affectedContexts": [
+        {
+          "name": "awaiting_confirm",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "df1e8250-4832-4245-9f52-9096f6b89fc4",
+          "name": "DeliveryMethod",
+          "required": false,
+          "dataType": "@DeliveryMethod",
+          "value": "$DeliveryMethod",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "Self-collect your order : #session_vars.plateSize size, #session_vars.quantity pack, #session_vars.ChilliAmount",
+          "replies": [
+            "Confirm",
+            "Cancel"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Self-collect your order : #session_vars.PlateSize size, #session_vars.Quantity pack, \n #session_vars.ChilliAmount \u003cConfirm\u003e or \u003cCancel\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

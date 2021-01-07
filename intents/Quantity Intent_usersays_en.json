@@ -1,0 +1,81 @@
+[
+  {
+    "id": "2601a370-6ff7-4aa4-a6b3-bdeb8d27feb2",
+    "data": [
+      {
+        "text": "Lot of ",
+        "userDefined": false
+      },
+      {
+        "text": "chilli",
+        "meta": "@ChilliAmount",
+        "alias": "ChilliAmount",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "19c5e546-ae3b-4ae6-b414-3d3ba452a675",
+    "data": [
+      {
+        "text": "More chilli",
+        "meta": "@ChilliAmount",
+        "alias": "ChilliAmount",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "352779ce-5872-48a6-be3b-30f2668f1066",
+    "data": [
+      {
+        "text": "Extra Chilli",
+        "meta": "@ChilliAmount",
+        "alias": "ChilliAmount",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "40955d02-43ab-45d4-b4d8-a81a6ab2dc6e",
+    "data": [
+      {
+        "text": "Chilli",
+        "meta": "@ChilliAmount",
+        "alias": "ChilliAmount",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "66e477b7-5ca8-4b2e-8e58-ddd562e188be",
+    "data": [
+      {
+        "text": "No Chilli",
+        "meta": "@ChilliAmount",
+        "alias": "ChilliAmount",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

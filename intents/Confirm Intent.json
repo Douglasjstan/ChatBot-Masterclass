@@ -1,0 +1,48 @@
+{
+  "id": "20776071-8900-45bc-a8d1-b00b05bbbc88",
+  "name": "Confirm Intent",
+  "auto": true,
+  "contexts": [
+    "awaiting_Confirm"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ConfirmOrder",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ready in 4 hours.  Thank you!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ready in 4 hours.  Thank you!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

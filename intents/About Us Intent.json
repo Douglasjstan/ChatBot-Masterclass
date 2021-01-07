@@ -1,0 +1,57 @@
+{
+  "id": "499b8478-4b2e-4ffc-9f12-924b957f35c9",
+  "name": "About Us Intent",
+  "auto": true,
+  "contexts": [
+    "awaiting_menu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "selectAboutUs",
+      "affectedContexts": [
+        {
+          "name": "awaiting_menu",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Welcome to 天天来炒虾面, Come Daily Fried Hokkien Mee.  We are in business since 1968. Current Chef Jason is the 3rd Generation"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "facebook",
+          "imageUrl": "https://scontent.fsin3-1.fna.fbcdn.net/v/t1.0-9/38531484_1869832766393310_653904183790927872_n.jpg?_nc_cat\u003d106\u0026ccb\u003d2\u0026_nc_sid\u003d8bfeb9\u0026_nc_ohc\u003dSyzbfwax4gAAX_tZ_m0\u0026_nc_ht\u003dscontent.fsin3-1.fna\u0026oh\u003d127ec2f5ef123f102f3599c9c36e6c8e\u0026oe\u003d5FB99676",
+          "subtitle": "Current Chef Jason is the 3rd Generation.",
+          "title": "We are in business since 1968",
+          "buttons": [
+            {
+              "text": "Back to Menu"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

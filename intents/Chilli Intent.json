@@ -1,0 +1,75 @@
+{
+  "id": "ed961bae-0482-4529-802e-97efad416fff",
+  "name": "Chilli Intent",
+  "auto": true,
+  "contexts": [
+    "awaiting_size"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "selectChilli",
+      "affectedContexts": [
+        {
+          "name": "awaiting_chilli",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f703bff6-dd5c-43c0-b25a-63afe5db7cc1",
+          "name": "PlateSize",
+          "required": true,
+          "dataType": "@PlateSize",
+          "value": "$PlateSize",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please advise what size"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "Do you want chilli ?",
+          "replies": [
+            "No chilli",
+            "Chilli",
+            "Extra chilli"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "No chilli, Chilli or Extra chilli ?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

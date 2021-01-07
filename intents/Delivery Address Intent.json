@@ -1,0 +1,68 @@
+{
+  "id": "d737d723-89b3-47de-8cb8-9788aa7d4fae",
+  "name": "Delivery Address Intent",
+  "auto": true,
+  "contexts": [
+    "awaiting_method"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Home-Delivery",
+      "affectedContexts": [
+        {
+          "name": "awaiting_address",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "5791d49a-3740-4335-9aa7-740e0ad624cb",
+          "name": "DeliveryMethod",
+          "required": false,
+          "dataType": "@DeliveryMethod",
+          "value": "$DeliveryMethod",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please provide your home delivery address"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please provide your home delivery address"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

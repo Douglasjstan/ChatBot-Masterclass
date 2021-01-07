@@ -1,0 +1,82 @@
+{
+  "id": "d69a46ae-0079-4d1d-a367-0d66a7790f5a",
+  "name": "Quantity Intent",
+  "auto": true,
+  "contexts": [
+    "awaiting_chilli"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "awaiting_quantity",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "0f26bd2b-2b8c-4744-849a-19c0bcffa1bc",
+          "name": "ChilliAmount",
+          "required": true,
+          "dataType": "@ChilliAmount",
+          "value": "$ChilliAmount",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please select Chilli or No Chilli or Extra Chilli"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "3",
+          "platform": "facebook",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn%3AANd9GcRRsYN0_xxj8J_hSEeKGbMmWxs_6HYf7ltgUA\u0026usqp\u003dCAU",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "How many pack you want to purchase ?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "How many package you want to purchase ?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

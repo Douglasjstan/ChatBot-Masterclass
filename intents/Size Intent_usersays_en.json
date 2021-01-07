@@ -1,0 +1,74 @@
+[
+  {
+    "id": "0e3034a6-4b2e-4ade-a923-0d4164d6da33",
+    "data": [
+      {
+        "text": "You can call me at ",
+        "userDefined": false
+      },
+      {
+        "text": "98161694",
+        "meta": "@sys.number",
+        "alias": "Phone",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "478e0bc7-afb9-432e-a637-a5ab02a204d0",
+    "data": [
+      {
+        "text": "I can be contacted at ",
+        "userDefined": false
+      },
+      {
+        "text": "98161694",
+        "meta": "@sys.number",
+        "alias": "Phone",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9409e87c-e26f-4fbd-a9fc-0c644c303bce",
+    "data": [
+      {
+        "text": "My phone number is ",
+        "userDefined": false
+      },
+      {
+        "text": "98161694",
+        "meta": "@sys.number",
+        "alias": "Phone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "71b5cf6b-ccd3-41e8-8236-2632d3afb01a",
+    "data": [
+      {
+        "text": "98161694",
+        "meta": "@sys.number",
+        "alias": "Phone",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

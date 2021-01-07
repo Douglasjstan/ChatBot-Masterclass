@@ -1,0 +1,40 @@
+[
+  {
+    "value": "Small",
+    "synonyms": [
+      "Small",
+      "Small plate",
+      "Small size",
+      "$4"
+    ]
+  },
+  {
+    "value": "Medium",
+    "synonyms": [
+      "Medium",
+      "Med",
+      "Middle",
+      "Mid",
+      "$6",
+      "Medium plate",
+      "Middle plate",
+      "Med plate",
+      "Mid plate"
+    ]
+  },
+  {
+    "value": "Large",
+    "synonyms": [
+      "Big",
+      "Large",
+      "Huge",
+      "$10",
+      "Big plate",
+      "Big size",
+      "Large plate",
+      "Large size",
+      "Huge plate",
+      "Huge size"
+    ]
+  }
+]

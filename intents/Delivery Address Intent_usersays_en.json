@@ -1,0 +1,100 @@
+[
+  {
+    "id": "c62e6073-6360-4825-9cf3-b87e01992184",
+    "data": [
+      {
+        "text": "deliver",
+        "meta": "@DeliveryMethod",
+        "alias": "DeliveryMethod",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "922136d1-3c39-4d04-982b-01a40d814a42",
+    "data": [
+      {
+        "text": "send to my",
+        "meta": "@DeliveryMethod",
+        "alias": "DeliveryMethod",
+        "userDefined": true
+      },
+      {
+        "text": " house",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7e2cdc9a-c6fb-4920-b25e-c66b1737cb57",
+    "data": [
+      {
+        "text": "send to my home",
+        "meta": "@DeliveryMethod",
+        "alias": "DeliveryMethod",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ff4c4aab-633f-44a0-b4df-cbeea0792bc0",
+    "data": [
+      {
+        "text": "deliver to my",
+        "meta": "@DeliveryMethod",
+        "alias": "DeliveryMethod",
+        "userDefined": true
+      },
+      {
+        "text": " house",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8fb49241-e868-4b62-9670-2d42569ff0ab",
+    "data": [
+      {
+        "text": "deliver to my home",
+        "meta": "@DeliveryMethod",
+        "alias": "DeliveryMethod",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "880f265d-fcdd-412d-bf23-c69202c77bf6",
+    "data": [
+      {
+        "text": "Home delivery",
+        "meta": "@DeliveryMethod",
+        "alias": "DeliveryMethod",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

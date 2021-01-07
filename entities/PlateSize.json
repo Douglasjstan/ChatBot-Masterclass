@@ -1,0 +1,9 @@
+{
+  "id": "69ad7d2c-c12a-45b2-a2a3-36dfaa91a734",
+  "name": "PlateSize",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

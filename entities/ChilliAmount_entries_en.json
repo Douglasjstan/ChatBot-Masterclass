@@ -1,0 +1,24 @@
+[
+  {
+    "value": "No Chilli",
+    "synonyms": [
+      "No Chilli",
+      "No_Chilli"
+    ]
+  },
+  {
+    "value": "Chilli",
+    "synonyms": [
+      "Chilli"
+    ]
+  },
+  {
+    "value": "Extra Chilli",
+    "synonyms": [
+      "Extra_Chilli",
+      "Extra Chilli",
+      "Large Chilli",
+      "More Cilli"
+    ]
+  }
+]

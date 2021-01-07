@@ -1,0 +1,9 @@
+{
+  "id": "661c12d5-3c7a-42db-9eca-efa004eb70bc",
+  "name": "ChilliAmount",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

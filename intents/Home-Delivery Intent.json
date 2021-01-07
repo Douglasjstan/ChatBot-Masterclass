@@ -1,0 +1,74 @@
+{
+  "id": "329bc06b-067a-4889-9803-ff027e089bcb",
+  "name": "Home-Delivery Intent",
+  "auto": true,
+  "contexts": [
+    "awaiting_address"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "awaiting_confirm",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ffc325a0-a089-45ec-827b-45c0fe500f1e",
+          "name": "Address",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$Address",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide a valid delivery address"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "Home delivery your order to #session_vars.Address, #session_vars.plateSize size, #session_vars.quantity pack, #session_vars.ChilliAmount",
+          "replies": [
+            "Confirm",
+            "Cancel"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Home delivery your order to #session_vars.Address, #session_vars.plateSize size, #session_vars.quantity pack, #session_vars.ChilliAmount\u003cConfirm\u003e or \u003cCancel\u003e"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,57 @@
+{
+  "id": "523b3ee7-e7f7-443a-b7a2-72d3b89ce9ae",
+  "name": "Location Intent",
+  "auto": true,
+  "contexts": [
+    "awaiting_menu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "selectLocation",
+      "affectedContexts": [
+        {
+          "name": "awaiting_menu",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "1",
+          "platform": "facebook",
+          "imageUrl": "https://s3-ap-southeast-1.amazonaws.com/static.streetsine/HDB%20Block%20Photos/310127/L/404252.jpg",
+          "subtitle": "Opening hours 8:00a - 2:30p. Closed on Mon",
+          "title": "We\u0027re at 127, #02-27, Lor 1 Toa Payoh S310127.",
+          "buttons": [
+            {
+              "text": "Back to Menu"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "We are located at 127, #02-27 Singapore 310127 Lor 1 Toa Payoh, 310127. Operating hours 8:00am - 2:30pm. Closed on Monday"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,83 @@
+{
+  "id": "cf9548e8-3371-42d7-95d8-a20061321f10",
+  "name": "Size Intent",
+  "auto": true,
+  "contexts": [
+    "awaiting_Phone"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "selectSize",
+      "affectedContexts": [
+        {
+          "name": "awaiting_size",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "5d0a54b7-c7ea-42fa-8ae2-9a4bdd4a4410",
+          "name": "Phone",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$Phone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide your contact number"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "1",
+          "platform": "facebook",
+          "imageUrl": "https://scontent.fsin3-1.fna.fbcdn.net/v/t1.0-9/p843x403/121256545_3499938300049407_2755133527811138701_o.jpg?_nc_cat\u003d105\u0026ccb\u003d2\u0026_nc_sid\u003da26aad\u0026_nc_ohc\u003dDcOXfc7r17gAX_9wWtl\u0026_nc_ht\u003dscontent.fsin3-1.fna\u0026tp\u003d6\u0026oh\u003dde566ac0c683a29beeaec88e6f56b031\u0026oe\u003d5FB7F3A0",
+          "subtitle": "Small ($4), Medium ($6), Large ($10)",
+          "title": "Please select plate size",
+          "buttons": [
+            {
+              "text": "Small plate"
+            },
+            {
+              "text": "Medium plate"
+            },
+            {
+              "text": "Large plate"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What plate size you want ? Small plate \u003d $4, Medium plate \u003d $6,  Large plate \u003d $10"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,57 @@
+{
+  "id": "debf1749-2ec5-4636-9f0c-ac59a4fc39f6",
+  "name": "Name Intent",
+  "auto": true,
+  "contexts": [
+    "awaiting_menu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "AskName",
+      "affectedContexts": [
+        {
+          "name": "awaiting_Name",
+          "lifespan": 1
+        },
+        {
+          "name": "Session_vars",
+          "lifespan": 50
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What is your name?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What is your name?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,73 @@
+{
+  "id": "83b63b51-cf24-4dda-99b7-d775f4083a21",
+  "name": "Phone Intent",
+  "auto": true,
+  "contexts": [
+    "awaiting_Name"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "AskPhone",
+      "affectedContexts": [
+        {
+          "name": "awaiting_Phone",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "e75ee69d-f7c5-45d3-9695-57c01fa87acd",
+          "name": "Name",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "value": "$Name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter your name"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What is your phone number ?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What is your phone number ?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

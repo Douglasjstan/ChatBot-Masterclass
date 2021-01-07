@@ -1,0 +1,9 @@
+{
+  "id": "f94a0c59-af8f-4ef9-842d-7b391627ab45",
+  "name": "DeliveryMethod",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

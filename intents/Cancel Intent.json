@@ -1,0 +1,49 @@
+{
+  "id": "48e02149-4217-42d0-8909-9bd7f2c11d86",
+  "name": "Cancel Intent",
+  "auto": true,
+  "contexts": [
+    "awaiting_confirm"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CancelOrder",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Your order has been cancelled"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Your order has been cancelled"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

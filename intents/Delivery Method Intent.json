@@ -1,0 +1,74 @@
+{
+  "id": "1e49a2ec-365e-4441-836a-0f8fc85c5b85",
+  "name": "Delivery Method Intent",
+  "auto": true,
+  "contexts": [
+    "awaiting_quantity"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DeliveryMethod",
+      "affectedContexts": [
+        {
+          "name": "awaiting_method",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c73f9af6-9f7a-4f5e-99c4-c5ad732f1ece",
+          "name": "Quantity",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$Quantity",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter how many pack you want to purchase"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "Do you want home delivery ($4) or self-collect?",
+          "replies": [
+            "Home delivery",
+            "Self-collect"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Home delivery or self-collect"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

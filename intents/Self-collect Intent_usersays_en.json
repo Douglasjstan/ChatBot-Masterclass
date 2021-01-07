@@ -1,0 +1,81 @@
+[
+  {
+    "id": "0e13c0a1-e95c-4c21-bfd2-b5c06290a4a1",
+    "data": [
+      {
+        "text": "self",
+        "meta": "@DeliveryMethod",
+        "alias": "DeliveryMethod",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "908129e7-57fd-4889-bdfa-7bc4d47ef5b1",
+    "data": [
+      {
+        "text": "i go and ",
+        "userDefined": false
+      },
+      {
+        "text": "collect",
+        "meta": "@DeliveryMethod",
+        "alias": "DeliveryMethod",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "65ad23a2-591b-433a-be34-7977512e7d97",
+    "data": [
+      {
+        "text": "collect myself",
+        "meta": "@DeliveryMethod",
+        "alias": "DeliveryMethod",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cbf07556-9179-4743-b1b7-4096e7ab36c1",
+    "data": [
+      {
+        "text": "Self collect",
+        "meta": "@DeliveryMethod",
+        "alias": "DeliveryMethod",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cc41f3d7-7b94-40be-8347-91530d1c2515",
+    "data": [
+      {
+        "text": "Self-collect",
+        "meta": "@DeliveryMethod",
+        "alias": "DeliveryMethod",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
